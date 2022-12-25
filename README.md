@@ -17,7 +17,7 @@ A web app that allows users to create short, easy-to-remember URLs for long, com
 Insert screenshots of the web app here.
 ## Installation
 
-To install and run this web app, you will need [Node.js]() and [MongoDB]() installed on your machine.
+To install and run this web app, you will need [Node.js](https://nodejs.org/en/) and [MongoDB](https://www.mongodb.com/home) installed on your machine.
 
    1. Clone this repository: `git clone https://github.com/user/short-url.git`
    2. Navigate to the project directory: `cd short-url`
@@ -36,7 +36,7 @@ To search for short URLs, enter a search query in the search bar and press enter
 To log in to the web app, click the "Log In" button and follow the prompts to authenticate using your preferred OAuth provider.
 ## Contribution
 
-If you find a bug or have an idea for a new feature, please open an issue in the [issue tracker](). If you would like to contribute code, please fork this repository and submit a pull request.
+If you find a bug or have an idea for a new feature, please open an issue in the [issue tracker](https://github.com/Satishcg12/short-node/issues). If you would like to contribute code, please fork this repository and submit a pull request.
 ## Testing
 
 To test the web app, run the following command in the project directory:
@@ -46,10 +46,10 @@ npm test
 
 ## License
 
-This project is released under the [MIT License]().
+This project is released under the [MIT License](https://opensource.org/licenses/MIT).
 ## Contact
 
-For any questions or feedback, please contact me at [user@example.com].
+For any questions or feedback, please contact me at [sc2903175@gmail.com](mailto:sc2903175@gmail.com).
 ## Acknowledgements
 
    - [randomstring]() for generating random short URLs
