@@ -8,7 +8,7 @@ const UserHistory = () => {
   useEffect(() => {
     const getHistory = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/history/${user.email}`);
+        const response = await fetch(`${import.meta.env.VITE_API_DOMAIN}/${user.email}`);
         const data = await response.json();
 
         setHistory(data);

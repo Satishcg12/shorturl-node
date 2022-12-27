@@ -22,7 +22,7 @@ const ShortenForm = (props) => {
     const handleSubmit = async (event) => {
         event.preventDefault();
 
-        const response = await fetch('http://localhost:3000/shorten', {
+        const response = await fetch(`${import.meta.env.VITE_API_DOMAIN}/shorten`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
