@@ -42,7 +42,7 @@ const ShortenForm = (props) => {
             return;
         }
         setSuccess(true);
-        console.log(data);
+        
         setShortUrl(data.shortUrl);
     }
     const copyUrl = () => {

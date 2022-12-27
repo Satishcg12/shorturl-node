@@ -8,7 +8,7 @@ function Redirect() {
     async function fetchLongUrl() {
       const response = await fetch(`${import.meta.env.VITE_API_DOMAIN}/${shortUrl}`);
       const data = await response.json();
-      console.log(data);
+      
       window.location.href = data.longUrl;
     }
     fetchLongUrl();
